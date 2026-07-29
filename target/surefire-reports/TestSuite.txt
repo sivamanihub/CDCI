@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.288 s <<< FAILURE! -- in TestSuite
+cucumber.TestNGTestRunner.runScenario["Positive Test of Submitting the order", "Purchase Error Validation"](1) -- Time elapsed: 0.237 s <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\shash.HACHIDORILAP020\eclipse-workspace\SeleniumFrameWorkDesign\src\main\java\sivamani\resources\GlobalData.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at selenium.TestComponents.BaseTest.initializeDriver(BaseTest.java:49)
+	at selenium.TestComponents.BaseTest.launchApplication(BaseTest.java:108)
+	at selenium.stepDefinition.StepDefinitionsImpli.i_land_on_ecommerce_page(StepDefinitionsImpli.java:26)
+	at ✽.I land on Ecommerce Page(file:///C:/Users/ADMIN/eclipse-workspace/SeleniumFrameWorkDesign/src/test/java/cucumber/ErrorValidations.feature:7)
+

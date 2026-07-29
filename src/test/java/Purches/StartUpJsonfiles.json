@@ -1,0 +1,453 @@
+{
+  "Header": [
+    {
+      "Record_Time_Stamp": "2022-01-26 10:25:21",
+      "location_Detail": "NEW_OFFICE",
+      "id": "1012"
+    }
+  ],
+  "BOT2": [
+    {
+      "arduinoEnable": 1,
+      "BT_Enable_Flag": 0,
+      "networkEnable": 1,
+      "KeyboardEnable": 1,
+      "LidarEnable": 1,
+      "cameraEnable": 0,
+      "MotorControllerModbusEnable": 1,
+      "BMSEnable": 1,
+      "imuEnable": 1,
+      "ModbusSlaveEnable": 0,
+      "EBVersion": 2,
+      "LiftingPlatformFlag": 0,
+      "DockingPlatformFlag": 1,
+      "AutoDetachFlag": 0,
+      "TrolleyEdgeToEdgeWidth": 75,
+      "BumperPresentFlag": 0,
+      "StopButtonType": 0,
+      "GEAR_RATIO": 14,
+      "UseWallDataEnable": 1,
+      "BotWidthTagBased": 600,
+      "BotLenTagBased": 366,
+      "BotTagMidSpace": 175,
+      "BotPosOffset": -345,
+      "InterLidarDistanceAlongWidth": 57,
+      "InterLidarDistanceAlongLength": 85,
+      "BotEdgeToEdgeWidth": 74,
+      "BotEdgeToEdgeLength": 110,
+      "NewTagPositionLogicFlag": 3,
+      "Navig_Stats_File": "NavigStatistics.json",
+      "BOT_IDLE_TIME_THRESH": 3600,
+      "BOT_MAXLOAD_ALLOWED": 500,
+      "JS_AUTOSTART_INTERNODE_FLAG": 1,
+      "JS_STOPBUTTON_ENABLED": 1,
+      "LOW_BATTERY_VALUE": 15,
+      "NAVIG_TO_CHARGING_STATION_ENABLED": 0,
+      "ExeFlag": 1,
+      "DebugPrintLevel": 6,
+      "BOT_MODE": 0,
+      "Motortype": "BLDC",
+      "RATED_BASE_MOTOR_RPM": 3000,
+      "RATED_MOTOR_RPM_WITH_GEAR": 214.28,
+      "BASE_MOTOR_ENCODER_PULSES_PER_REVOLUTION": 10000,
+      "CARTID": 3,
+      "WHEEL_GEAR_OUTPUT_REVERSED": 0,
+      "CENTER_WHEEL_DIAMETER": 127.34,
+      "BOT_WIDTH": 552,
+      "MINSPEED_OF_THE_BOT": 85,
+      "RotationBaseSpeed": 800,
+      "REVOLVE_MAXIMUM_SPEED": 850,
+      "REVOLVE_BUFF_DIST_MM": 400,
+      "LOOP_MAXIMUM_SPEED": 500,
+      "Tag_BL_ADDR_8Tags": [
+        "E5:BE:60:DF:18:3E",
+        "F7:46:26:4C:4F:BA",
+        "FF:3B:B0:42:5F:E8",
+        "D7:9A:73:6F:65:85",
+        "E5:BE:60:DF:18:3E",
+        "F7:46:26:4C:4F:BA",
+        "FF:3B:B0:42:5F:E8",
+        "D7:9A:73:6F:65:85"
+      ],
+      "Tag_BL_ADDR_4Tags": [
+        "F7:46:26:4C:4F:BA",
+        "E5:BE:60:DF:18:3E",
+        "D7:9A:73:6F:65:85",
+        "FF:3B:B0:42:5F:E8"
+      ],
+      "TagValidationSkipFlag": 0,
+      "POSTSkipFlag": 0,
+      "TOTAL_TAGS_USED": 4,
+      "BADTAGDATAREPEATCOUNT": 3,
+      "MAXTAGERRORCOUNT": 100,
+      "TAGSTODISCOUNT": 2,
+      "TAG_SAMPLING_FREQ": 2,
+      "STATIC_DATA_FOR_ANGLE_MEASURE": 300,
+      "DISTANCE_FOR_TOOMUCH_DEVIATION_FROM_PATH": 300,
+      "PTHREAD_FLAG": 0,
+      "MAX_DEVIATION_FROM_PATH_mm": 2000,
+      "Enable_Red_Button": 0,
+      "MinBackClearanceForTuggerRotation_cm": 100,
+      "id": "4485"
+    },
+    {
+      "id": "a4d8",
+      "name": "sivamani",
+      "job": "QAE"
+    }
+  ],
+  "MotorPulseGenerationParameters": [
+    {
+      "MAX_RANGE_VALUE": 32768,
+      "PWM_CLK_DIVIDER": 2,
+      "ACCELERATION_SCALE_FACTOR": 1.65,
+      "UseModbusBasedController": 1,
+      "MOTOR_DRIVER_MODEL": 1,
+      "MOVE_FORWARD_INTERRUPTED_ESTOP_DECC_TIME_MS": 500,
+      "ROTATION_INTERRUPTED_ESTOP_DECC_TIME_MS": 500,
+      "id": "8c69"
+    }
+  ],
+  "Keyboard": [
+    {
+      "Route_map_file": "Temp_Map_File.json",
+      "ExeFlag": 0,
+      "Workflow_file": "Temp_Workflow_File.json",
+      "EnableWorkflowBasedJob": 2,
+      "id": "4bcc"
+    }
+  ],
+  "Tunneling": [
+    {
+      "TunnelLength": 70,
+      "TunnelWidth": 115,
+      "LegWidth": 10,
+      "DataPointOfInterest": 250,
+      "MinRangeToCruise_mm": 500,
+      "OffsetDistanceFromCentre_mm": 20,
+      "ObstructionExclusionIndexCount": 5,
+      "OBSTRUCTION_FAIL_TIMEOUT_SEC": 30,
+      "TunnelInLinearSpeed": 1000,
+      "TunnelInRotateSpeed": 250,
+      "TunnelInClampSkip": 0,
+      "TunnelOutSpeed": 1000,
+      "TunnelOutClampSkip": 0,
+      "LIDAR_FILTER_CUTOFF": 20,
+      "CameraCorrection": 0,
+      "StopUsingDockingSensors": 1,
+      "BufferTunnelInDistance": 0,
+      "BufferTunnelInDistance_cm": 0,
+      "RearClearance_cm": 30,
+      "SideIndexMargin_cm": 10,
+      "id": "b15d"
+    }
+  ],
+  "ReverseMotionOperation": [
+    {
+      "PreMotionCameraCorrection": 0,
+      "PostMotionCameraCorrection": 1,
+      "id": "e3f6"
+    }
+  ],
+  "Imu": [
+    {
+      "SuddenTwistFlagThreshCount": 1,
+      "SUDDEN_TWIST_THRESH_ANG_PER_SEC": 30,
+      "ImuThreadDelay": 0.1,
+      "SAMPLE_WINDOW_LEN": 2,
+      "id": "4b02"
+    }
+  ],
+  "DockingParams": [
+    {
+      "FixedConveyor2ReferencePlaneOffset": 120,
+      "DockingClearence": 100,
+      "ConveyorExtensionFromLidar": 150,
+      "Stage2Distance": 1800,
+      "Stage3Distance": 600,
+      "FinalLegDist": 80,
+      "Stage1GoalXReduction": 30,
+      "DockoutStage1Distance": 1400,
+      "Lidar_Point_Lower_Limit": 62,
+      "Lidar_Point_Upper_Limit": 125,
+      "LIDAR_GET_DATA_DELAY": 0.3,
+      "ANGLE_CORRECTION_LIMIT": 1.5,
+      "Number_Of_Lidar_Point_Distance_Calc": 30,
+      "Docking_Rotation_Speed": 1000,
+      "Stage1_Liniear_speed": 1000,
+      "Stage2_Liniear_speed": 1500,
+      "Stage3_Liniear_speed": 1500,
+      "Stage3_final_speed": 300,
+      "DockOut_Rotation_Speed": 400,
+      "DockOut_Liniear_Speed": 1000,
+      "DockoutStage2AllowedDistancetoSkip": 2000,
+      "Lidar_Offset_To_AMR_Conveyor_Edge": 10,
+      "DockingBoxVersion": 1,
+      "Reset_After_Pallet_Transfer": 0,
+      "EnableConveyorMotorRelease": 0,
+      "Pallet_Transfer_Timeout": 12,
+      "ConveyorMotorReleaseNodes": [
+        0
+      ],
+      "DockingSensorPresentFlag": 1,
+      "RESET_ARDUINO_SPI_FAIL_COUNT": 200,
+      "ApplyBrakeBeforePalletTransfer": 0,
+      "id": "fe88"
+    }
+  ],
+  "PalletTransfer": [
+    {
+      "LoadPalletIntoConveyorTimeOut": 10,
+      "PalletPresentVerificationTimeOut": 10,
+      "Pallet_Transfer_Timeout": 25,
+      "Reset_After_Pallet_Transfer": 1,
+      "EnableConveyorMotorRelease": 0,
+      "ConveyorMotorReleaseNodes": [
+        0
+      ],
+      "DockingSensorPresentFlag": 0,
+      "DockingBoxVersion": 1,
+      "RESET_ARDUINO_SPI_FAIL_COUNT": 200,
+      "ApplyBrakeBeforePalletTransfer": 0,
+      "id": "23d7"
+    }
+  ],
+  "Receive_Pallet": [
+    {
+      "LoadPalletIntoConveyorTimeOut": 15,
+      "PalletPresentVerificationTimeOut": 5,
+      "Pallet_Transfer_Timeout": 25,
+      "Reset_After_Pallet_Transfer": 0,
+      "EnableConveyorMotorRelease": 0,
+      "ConveyorMotorReleaseNodes": [
+        0
+      ],
+      "ApplyBrakeBeforePalletTransfer": 0,
+      "id": "9d21"
+    }
+  ],
+  "LiftingPlatform": [
+    {
+      "TargetMaxRPMIndex": 0,
+      "LiftingDistance": 50,
+      "PlatformMinimumHeight": 110,
+      "ReverseDirectionPinValue": 0,
+      "LiftingPlatformErrorMargin": 12,
+      "id": "585b"
+    }
+  ],
+  "Common": [
+    {
+      "BOTSIM_FLAG": 0,
+      "NodeAngleOffsetFile": "AngleOffset_v2.2_And_Above.json",
+      "ROTATE_ANG_THRESH": 8,
+      "TAG_BASED_ROTATE_ANG_THRESH": 8,
+      "PBA_TIMEOUT_THRESH": 300,
+      "PBA_ANGLEDIFF_ACCEPT_THRESH": 45,
+      "PBA_REJECT_ANGLE_THRESH": 90,
+      "ExeFlag": 0,
+      "RotateEnabledFlag": 0,
+      "SmartRotateEnabledFlag": 0,
+      "Node_Angle_Offset_Flag": 0,
+      "Navig_Buzzer_On_Flag": 0,
+      "ENABLE_ALTERNATE_PATH": 0,
+      "TIMEOUT_FOR_ALTERNATE_PATH": 15,
+      "UseLaneDataFlag": 0,
+      "Ang2RotDisableFlag": 0,
+      "KP_RAMPUP_STAGE": 0.25,
+      "KP_STAGE_1": 0.25,
+      "KP_STAGE_2": 0.05,
+      "KP_RAMPDOWN_STAGE": 0.05,
+      "STAGE_1_REVERSE_FACTOR": 3,
+      "Stage1_NewLogicEnable_Flag": 1,
+      "Stage2_Deviation_Distance": 10,
+      "RampUp_Deviation_Distance": 40,
+      "OBS_AVOID_ENABLE_FLAG": 0,
+      "OBS_AVOID_SCALE_FACTOR": 1.2,
+      "ObsContourResolution": 1,
+      "ObstructionRecoveryEnabled": 0,
+      "FleetManagementEnabled": 0,
+      "TuggerPromptEnabledForAutoDetach": 1,
+      "TuggerDetachPromptEnabled": 0,
+      "Brake_On_Off_Delay_Seconds": 0.7,
+      "Brake_On_Off_Delay": 1,
+      "ObstructionRecoveryStepDegrees": 3,
+      "SideObstructionThreshold_mm": 10,
+      "SoundSirenOnReachingDestination": 0,
+      "DestinationSirenTimeout": 10,
+      "KP_RAMPUP_STAGE_REV": 0.1,
+      "KP_STAGE_1_REV": 0.25,
+      "KP_STAGE_2_REV": 0.1,
+      "KP_RAMPDOWN_STAGE_REV": 0.01,
+      "ObsRecoveryPathWidthScaleFactor": 10,
+      "TagKpReductionFactor": 1.5,
+      "id": "ee0f"
+    }
+  ],
+  "Network": [
+    {
+      "Server_IP_Addr": "http://192.168.68.116:8080/",
+      "BotId": 1,
+      "BotName": "APPU4.2",
+      "BotType": "HT",
+      "ExeFlag": 0,
+      "NetworkThreadDelay": 0.2,
+      "ServerWaitTimeOut": 1,
+      "StopButtonWorkflowID": "JW310",
+      "id": "c2a7"
+    }
+  ],
+  "Camera": [
+    {
+      "ExeFlag": 0,
+      "serial_port": "/dev/ttyAMA1",
+      "BotCameraOffsetDistance": 535,
+      "SideCameraOnlyFlag": 1,
+      "CameraThreadDelay": 0.1,
+      "PreviousAndCurrentCameraRatioDifferenceThreshold": 0.15,
+      "id": "24aa"
+    }
+  ],
+  "Lidar": [
+    {
+      "ExeFlag": 0,
+      "serial_port": "/dev/ttyAMA2",
+      "ObstructionThresholdWithoutExtension": 150,
+      "LidarThreadDelay": 0.1,
+      "DCAMERA_ENABLED": 0,
+      "MinimumRevolveFrontObstruction_mm": 500,
+      "MinimumRevolveSideObstruction_mm": 100,
+      "id": "1acb"
+    }
+  ],
+  "ModbusSlave": [
+    {
+      "ExeFlag": 0,
+      "serial_port": "/dev/ttyAMA0",
+      "ModbusSlaveThreadDelay": 0.2,
+      "JunctionWaitTimeout": 3600,
+      "ObstructionFaultThreshold": 19,
+      "StopButtonFaultTimeout": 120,
+      "JunctionFaultTimeout": 60,
+      "id": "f675"
+    }
+  ],
+  "BMS": [
+    {
+      "ExeFlag": 0,
+      "serial_port": "/dev/ttyAMA3",
+      "BMSThreadDelay": 0.1,
+      "id": "c496"
+    }
+  ],
+  "ObstructionDetection": [
+    {
+      "FrontExtension_cm": 7.3,
+      "BackExtension_cm": 2.3,
+      "LeftExtension_cm": 20,
+      "RightExtension_cm": 20,
+      "CornerFill": true,
+      "FrontBuffer_cm": 5,
+      "BackBuffer_cm": 5,
+      "LeftBuffer_cm": 5,
+      "RightBuffer_cm": 5,
+      "id": "5067"
+    }
+  ],
+  "ModbusMaster": [
+    {
+      "ExeFlag": 0,
+      "serial_port": "/dev/ttyAMA3",
+      "ModbusMasterThreadDelay": 0.2,
+      "MotorErrorHandleFlag": 0,
+      "BMSReadIntervalSeconds": 1,
+      "BMSHighCurrentDetectionThreshold": 20,
+      "BMSHighCurrentDetectionCount": 2,
+      "BMS_MODEL": 1,
+      "ADDITIONAL_MOTOR_CONTROL_MODE": 1,
+      "id": "50d5"
+    }
+  ],
+  "ModbusDriver": [
+    {
+      "MOVE_FORWARD_INTERRUPTED_ESTOP_DECC_TIME_MS": 250,
+      "printFlag": 62,
+      "LeftMotorReadAddr": 25095,
+      "LeftMotorReadAddrLen": 2,
+      "RightMotorReadAddr": 25095,
+      "RightMotorReadAddrLen": 2,
+      "RightMotorWriteAddr": 0,
+      "RightMotorWriteAddrLen": 0,
+      "LeftMotorWriteAddr": 0,
+      "LeftMotorWriteAddrLen": 0,
+      "whileLoopCounterThreshold": 30,
+      "Commment": "Bit 0: custome wirte, Bit 1: custome read, Bit 2: read motor cause and current alarm., Bit 3: all previous cutstom print, Bit 4: config before trigger, after trigger and in while loop,Bit 5: Retrigger mechanism",
+      "id": "06a6"
+    }
+  ],
+  "Arduino": [
+    {
+      "ExeFlag": 0,
+      "EnableFrontBackObstruction": 1,
+      "ArduinoThreadDelay": 0.1,
+      "ReverseBrakeRelayPin": 0,
+      "BOT_BATTERY_0": 48,
+      "BOT_BATTERY_100": 54,
+      "BOT_BATTERY_FULLSCALE_RANGE": 65,
+      "BrakeSwitchEnabled": 0,
+      "id": "48fa"
+    }
+  ],
+  "Debug": [
+    {
+      "Dbg_StartNode": 0,
+      "Dbg_X_OFFSET": 0,
+      "Dbg_Y_OFFSET": 0,
+      "DBG_Start_Angle": 0,
+      "Dbg_OBS_FLAG": 0,
+      "Dbg_OBS_Segment": 0,
+      "Dbg_OBS_Pos_X": 0,
+      "Dbg_OBS_Pos_Y": 0,
+      "RampUp_To_Stage1_NewLogic_Flag": 0,
+      "Stage2_To_Stage1_NewLogic_Flag": 0,
+      "OrigTagBotDeviationFactor": 6,
+      "InterimNodeSpeed_StraightScaleFactor": 10,
+      "InterimNodeSpeed_RevolveScaleFactor": 1,
+      "InterimNodeSpeedChangesEnabledFlag": 1,
+      "ModbusSerialReadTimeoutSecs": 0.2,
+      "ModbusSerialTimeoutSeconds": 0.2,
+      "MotorContReadErrCntThresh": 1,
+      "EnableSoftI2C": 0,
+      "I2C_Clock_Stretch_Error": 0,
+      "EnableIMUBasedAction": 1,
+      "WheelBasedTagFilterFlag": 1,
+      "WheelBasedTagFilterThreshold": 750,
+      "LastValidPositionCheckTimeout": 60,
+      "LastValidPositionDistanceThreshold": 2500,
+      "ObstructionRampDownFactor": 0.015,
+      "Stage0_EnabledFlag": 0,
+      "FleetManagementLogicSelection": 0,
+      "TagBasedDeviationScaleFactor": 2,
+      "hybridExponentialDecelerationFactor": 10,
+      "hybridLinearDecelerationFactor": 5,
+      "LoopStartCheckDistanceThreshold": 350,
+      "LoopStartCheckAngleThreshold": 6,
+      "RevolvePositionCheckThreshold": 600,
+      "IdealPathDeviationScaleFactor": 1.5,
+      "IdealPathDeviationTagScaleFactor": 2.5,
+      "DeviationCorrectionMoveScaleFactor": 0.3,
+      "EnablePerformFullRevolveFlag": 1,
+      "RevolvePositionTagDataRejectFactor": 1.25,
+      "RevolvePositionCountThreshold": 300,
+      "NoCorrectionDistanceLimit_mm": 400,
+      "RevolvePositionCheckEnabled": 0,
+      "emergencyExpontialDecelerationFactor": 3,
+      "nonEmergencyExpontialDecelerationFactor": 2,
+      "MinSpeedForLinearStartDeceleration": 1500,
+      "linear_ramp_down_factor": 3.5,
+      "SkipNavigationDelayFlag": 0,
+      "Enable_TAG_QF_Check_flag": 0,
+      "id": "99f0"
+    }
+  ]
+}

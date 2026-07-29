@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jun 07 07:03:36 PDT 2026</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2099 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='cucumber.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumber.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Positive Test of Submitting the order", "Purchase Error Validation"</td>
+<td><div><pre>java.io.FileNotFoundException: C:\Users\shash.HACHIDORILAP020\eclipse-workspace\SeleniumFrameWorkDesign\src\main\java\sivamani\resources\GlobalData.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:106)
+	at selenium.TestComponents.BaseTest.initializeDriver(BaseTest.java:49)
+	at selenium.TestComponents.BaseTest.launchApplication(BaseTest.java:108)
+	at selenium.stepDefinition.StepDefinitionsImpli.i_land_on_ecommerce_page(StepDefinitionsImpli.java:26)
+	at ✽.I land on Ecommerce Page(file:///C:/Users/ADMIN/eclipse-workspace/SeleniumFrameWorkDesign/src/test/java/cucumber/ErrorValidations.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace130166095", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace130166095'><pre>java.io.FileNotFoundException: C:\Users\shash.HACHIDORILAP020\eclipse-workspace\SeleniumFrameWorkDesign\src\main\java\sivamani\resources\GlobalData.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:106)
+	at selenium.TestComponents.BaseTest.initializeDriver(BaseTest.java:49)
+	at selenium.TestComponents.BaseTest.launchApplication(BaseTest.java:108)
+	at selenium.stepDefinition.StepDefinitionsImpli.i_land_on_ecommerce_page(StepDefinitionsImpli.java:26)
+	at ✽.I land on Ecommerce Page(file:///C:/Users/ADMIN/eclipse-workspace/SeleniumFrameWorkDesign/src/test/java/cucumber/ErrorValidations.feature:7)
+</pre></div></td>
+<td>0</td>
+<td>cucumber.TestNGTestRunner@15ff3e9e</td></tr>
+</table><p>
+</body>
+</html>
