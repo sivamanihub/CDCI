@@ -41,6 +41,7 @@ public class BaseTest{
 
 	public WebDriver initializeDriver() throws IOException
 	{
+		//sivamani
 		String path = System.getProperty("user.dir")
 		        + "\\src\\main\\java\\sivamani\\resources\\GlobalData.properties";
 		
