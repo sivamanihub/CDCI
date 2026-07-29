@@ -91,7 +91,7 @@ public class BaseTest{
 	   public List<HashMap<String, String>> getJsonDatatoMap(String string) throws IOException {
 
 	        String jsonContent = FileUtils.readFileToString(
-	                new File("C:\\Users\\shash.HACHIDORILAP020\\eclipse-workspace\\SeleniumFrameWorkDesign\\src\\test\\java\\Purches\\PurchaseOrder.json"),
+	                new File(System.getProperty("user.dir")+"\\src\\test\\java\\Purches\\PurchaseOrder.json"),
 	                StandardCharsets.UTF_8
 	        );
 
