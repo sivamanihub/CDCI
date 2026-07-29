@@ -47,7 +47,7 @@ public class BaseTest{
 		Properties prop= new Properties();
 		//FileInputStream file= new FileInputStream("C:\\Users\\shash.HACHIDORILAP020\\eclipse-workspace\\SeleniumFrameWorkDesign\\src\\main\\java\\sivamani\\resources\\GlobalData.properties");
 		FileInputStream file = new FileInputStream(
-				"C:\\Users\\shash.HACHIDORILAP020\\eclipse-workspace\\SeleniumFrameWorkDesign\\src\\main\\java\\sivamani\\resources\\GlobalData.properties");
+				System.getProperty("user.dir")+"\\src\\main\\java\\sivamani\\resources\\GlobalData.properties");
 		prop.load(file);
 		
 		
